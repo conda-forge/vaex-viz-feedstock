@@ -1,6 +1,6 @@
 {% set name = "vaex-viz" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "ff1889d0651f4d58795949f7127ab59e16fece9f943005a2986f8ede7e741c8c" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "ff0b36a38baeeedb1d2a88ba7fe2939446aea0b7346d8b5aa8f7d658f19fbf97" %}
 
 package:
   name: {{ name|lower }}
@@ -15,12 +15,13 @@ build:
   number: 0
   noarch: python
   preserve_egg_dir: True
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
     - setuptools
+    - pip
   run:
     - python
     - vaex-core

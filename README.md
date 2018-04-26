@@ -14,12 +14,15 @@ Summary: Visualization for vaex
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/vaex-viz-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/vaex-viz-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/vaex-viz-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/vaex-viz-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vaex-viz/badges/version.svg)](https://anaconda.org/conda-forge/vaex-viz)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vaex-viz/badges/downloads.svg)](https://anaconda.org/conda-forge/vaex-viz)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-vaex--viz-green.svg)](https://anaconda.org/conda-forge/vaex-viz) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/vaex-viz.svg)](https://anaconda.org/conda-forge/vaex-viz) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/vaex-viz.svg)](https://anaconda.org/conda-forge/vaex-viz) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/vaex-viz.svg)](https://anaconda.org/conda-forge/vaex-viz) |
 
 Installing vaex-viz
 ===================

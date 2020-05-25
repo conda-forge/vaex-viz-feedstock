@@ -1,6 +1,6 @@
 {% set name = "vaex-viz" %}
-{% set version = "0.3.8" %}
-{% set sha256 = "2d14252e0ba46a123dc47dd151fdca737a46afaef7ee642456320d9ccde67077" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "2417d7c01747cf4f7512150b44f6c275dacd5ba0aa22a69b6f11a32d2184d4b6" %}
 
 package:
   name: {{ name|lower }}
@@ -12,10 +12,10 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  preserve_egg_dir: True
-  script: python -m pip install --no-deps --ignore-installed .
+  preserve_egg_dir: true
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:

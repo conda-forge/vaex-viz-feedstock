@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python
-    - vaex-core >=1.0.0,<2
+    - vaex-core >=2.0.0,<3
     - matplotlib-base >=1.3.1
     - pillow
 
@@ -33,7 +33,7 @@ test:
     - vaex.viz
 
 about:
-  home: https://www.github.com/maartenbreddels/vaex
+  home: https://www.github.com/vaexio/vaex
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt

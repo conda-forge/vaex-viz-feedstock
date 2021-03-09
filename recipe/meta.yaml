@@ -1,6 +1,6 @@
 {% set name = "vaex-viz" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "2417d7c01747cf4f7512150b44f6c275dacd5ba0aa22a69b6f11a32d2184d4b6" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "ca14715cd8c785102ae7bffac3a47059d0cc5397357568a3abd86b6a8fe22015" %}
 
 package:
   name: {{ name|lower }}
@@ -18,7 +18,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
     - pip

@@ -1,6 +1,6 @@
 {% set name = "vaex-viz" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "e181e638433a2803ad6bd55854cef10f6ca7cb6eeed7b21fdeaf29954b0b67ac" %}
+{% set version = "0.5.2" %}
+{% set sha256 = "519b403f1344222438913228f009e9d77d0c62d2f94e285cb33e1ad94940ffaa" %}
 
 package:
   name: {{ name|lower }}

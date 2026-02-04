@@ -1,6 +1,6 @@
 {% set name = "vaex-viz" %}
-{% set version = "0.5.4" %}
-{% set sha256 = "1b3b0b9cccc6c3590f191c674d5b6e03cb9790dea7e9a40a826d61ecc7aacc38" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "ea13bea18da84b4f5d17e47f43a33b7939e2242b18f6df33154da2f4de21ecda" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
